@@ -1,0 +1,22 @@
+{
+  "name": "probando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veferreyra/probando.git"
+  },
+  "author": "Veronica Ferreyra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veferreyra/probando/issues"
+  },
+  "homepage": "https://github.com/veferreyra/probando#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

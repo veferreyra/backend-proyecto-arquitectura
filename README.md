@@ -1,14 +1,23 @@
-# Endpoints
+## Endpoints
 
-GET     /gastos
+> GET     /gastos
 
-GET     /gastos/:id
+Trea todos los gastos.
 
-POST  /gastos
+> GET     /gastos/:id
+
+Trea un gasto por id
+
+> POST  /gastos
+
     {
-         importe: number,
-         descripcion: string
+        fechaDePago: Date,
+        importe: number,
+        descripcion: string
      }
 
-DELET /gastos/:id
+Crea un gasto
 
+> DELET /gastos/:id
+
+Borra un gasto
