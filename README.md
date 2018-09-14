@@ -8,7 +8,7 @@ Trea todos los gastos.
 
 Trea un gasto por id
 
-> POST  /gastos
+> PUT  /gastos
 
     {
         fechaDePago: Date,
@@ -18,6 +18,6 @@ Trea un gasto por id
 
 Crea un gasto
 
-> DELET /gastos/:id
+> DELETE /gastos/:id
 
 Borra un gasto
