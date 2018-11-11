@@ -1,3 +1,9 @@
+
+
+## Instrucciones para ejecución
+1. `npm install`
+2. `npm start`
+
 ## Endpoints
 
 > GET     /gastos
