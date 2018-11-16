@@ -1,10 +1,18 @@
 const express = require('express')
 const app = express()
+const cors = require('cors');
+
+app.use(cors());
 
 let db =  [{
     id: 1,
     nombre: "Edenor",
     importe: 804
+},
+{
+    id: 10,
+    nombre: "UP",
+    importe: 8000
 },
 {
     id: 2,
@@ -28,4 +36,4 @@ app.get('/gastos', (req, res) => res.send(db))
 app.put('/gastos', (req, res) => res.send(agregarUnGasto(req.body)));
 app.delete('/gastos/:id', (req, res) => res.send(borrarUnGastoPorId(req.params.id)))
 
-app.listen(3000, () => console.log('Servidor escuchando en el puerto 3000!'))
+app.listen(8000, () => console.log('Servidor escuchando en el puerto 8000!'))

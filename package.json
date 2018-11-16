@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/veferreyra/probando#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.3"
   }
 }
